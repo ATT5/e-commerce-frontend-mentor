@@ -122,5 +122,6 @@
   .btn-container {
     flex-direction: column;
     gap: 1.5rem;
+      margin-bottom: 0.7rem;
   }
 }
