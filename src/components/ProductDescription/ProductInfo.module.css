@@ -118,3 +118,9 @@
     width: 40%;
   }
 }
+@media (max-width: 850px) {
+  .btn-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
