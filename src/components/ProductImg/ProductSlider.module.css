@@ -1,0 +1,12 @@
+.container {
+  margin-top: 10rem;
+}
+.small-img-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.small-img {
+  border-radius: 10px;
+  cursor: pointer;
+}

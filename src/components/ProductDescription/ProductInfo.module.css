@@ -1,0 +1,114 @@
+.info-container {
+  /* position: relative; */
+
+  margin: 0 1.3rem;
+}
+.small {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+}
+.title {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+.description {
+  font-size: 1rem;
+  color: hsl(219, 9%, 45%);
+  line-height: 1.5rem;
+}
+.new-price {
+  font-size: 2rem;
+  margin: 0;
+}
+.discount {
+  font-size: 16px;
+  position: relative;
+  bottom: 0.4rem;
+  left: 5px;
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+  padding: 3px;
+  border-radius: 5px;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price {
+  color: hsl(218, 17%, 73%);
+  font-weight: 700;
+  text-decoration-line: line-through;
+}
+.counter {
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: hsl(240, 3%, 94%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.minus,
+.plus {
+  cursor: pointer;
+  border: none;
+  background-color: hsl(240, 3%, 94%);
+}
+.minus:active,
+.plus:active {
+  background-color: hsl(240, 3%, 94%);
+}
+.minus:hover,
+.plus:hover {
+  background-color: hsl(240, 3%, 94%);
+}
+.minus {
+  margin-left: 1rem;
+}
+.plus {
+  margin-right: 1rem;
+}
+.count {
+  font-weight: 700;
+}
+.add {
+  margin-top: 1rem;
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  display: flex;
+  width: 100%;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  gap: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.add:active {
+  background-color: hsl(26, 100%, 76%);
+}
+.cart {
+  color: white;
+}
+@media (min-width: 850px) {
+  .info-container {
+    z-index: 1;
+    width: 40%;
+    left: 40rem;
+    top: 15rem;
+    max-width: 400px;
+  }
+  .btn-container {
+    display: flex;
+    gap: 10%;
+  }
+  .add {
+    width: 50%;
+  }
+  .counter {
+    width: 40%;
+  }
+}
